@@ -1,5 +1,5 @@
 let time = parseInt(sessionStorage.getItem("tempo")) || 0;
-letx = null;
+let x = null;
 window.addEventListener("DOMContentLoaded", () => {
   document.getElementById("save").addEventListener("click", salva);
   document.getElementById("delate").addEventListener("click", cancella);
