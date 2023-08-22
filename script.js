@@ -12,7 +12,6 @@ window.addEventListener("DOMContentLoaded", () => {
     clearInterval(x);
     time = 0;
     sessionStorage.setItem("tempo", time);
-    document.getElementById("tempo").innerText = time + " s";
     cronometro();
   });
 });
